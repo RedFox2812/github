@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.tab-header__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-header__item{
+    margin: 50px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    min-width: 100px;
+    text-align: center;
+}
+.active{
+    background-color: blueviolet;
+    color: #fff;
+}
+.tab-body__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-body__item{
+    display: none;
+}
+.text-active{
+    display: block;
+    font-size: 20px;
+}
