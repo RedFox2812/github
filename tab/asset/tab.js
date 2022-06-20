@@ -3,4 +3,5 @@ const headerList = document.querySelectorAll(".tab-header__item");
 function handleTab(event) {
     [...headerList].forEach((item) => item.classList.remove("active"));
     event.target.classList.add("active");
+    [...headerList].forEach((item) => console.log(indexOf(item)));
 } 
